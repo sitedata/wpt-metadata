@@ -95,3 +95,11 @@ links:
       url: https://crbug.com/745905
       results:
         - test: text-overflow-021.html
+    - product: chrome
+      url: https://crbug.com/924486
+      results:
+        - test: appearance-cssom-001.html
+    - product: chrome
+      url: https://crbug.com/1135676
+      results:
+        - test: resize-child-will-change-transform.html

@@ -6,3 +6,7 @@ links:
           status: FAIL
         - test: transform-box-computed.html
           status: FAIL
+    - product: chrome
+      url: https://crbug.com/979895
+      results:
+        - test: translate-parsing-valid.html

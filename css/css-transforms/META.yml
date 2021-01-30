@@ -92,6 +92,7 @@ links:
         - test: backface-visibility-hidden-animated-002.html
         - test: backface-visibility-001.html
         - test: backface-visibility-hidden-001.html
+        - test: preserve-3d-flat-grouping-properties-containing-block.tentative.html
     - product: chrome
       url: https://crbug.com/753080
       results:
@@ -107,6 +108,15 @@ links:
           status: FAIL
         - test: transform3d-sorting-004.html
           status: FAIL
+        - test: rotate_x_45deg.html
+        - test: rotate_y_45deg.html
+        - test: transform3d-preserve3d-010.html
+        - test: transform3d-preserve3d-013.html
+        - test: transform3d-rotatex-perspective-003.html
+        - test: transform-3d-rotateY-stair-below-001.xht
+        - test: transform3d-sorting-006.html
+        - test: ttwf-css-3d-polygon-cycle.html
+        - test: ttwf-css-3d-polygon-cycle-mismatch.html
     - product: chrome
       url: https://crbug.com/954591
       results:
@@ -134,3 +144,15 @@ links:
           subtest: Preserve-3d element flattened due to backdrop-filter
         - test: preserve-3d-flat-grouping-properties.html
           subtest: Preserve-3d element flattened due to isolation
+    - product: chrome
+      url: https://crbug.com/900119
+      results:
+        - test: inheritance.html
+    - product: chrome
+      url: https://crbug.com/1076121
+      results:
+        - test: perspective-transforms-equivalence.html
+    - product: chrome
+      url: https://crbug.com/1051143
+      results:
+        - test: transform-input-015.html

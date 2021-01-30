@@ -17,3 +17,7 @@ links:
       url: https://crbug.com/921318
       results:
         - test: tab-size-spacing-001.html
+    - product: chrome
+      url: https://crbug.com/983620
+      results:
+        - test: tab-size.html

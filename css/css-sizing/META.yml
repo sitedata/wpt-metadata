@@ -124,3 +124,8 @@ links:
       url: https://crbug.com/936084
       results:
         - test: max-content-input-001.html
+    - product: chrome
+      url: https://crbug.com/970201
+      results:
+        - test: clone-intrinsic-size.html
+        - test: slice-intrinsic-size.html
