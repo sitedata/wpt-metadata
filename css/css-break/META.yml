@@ -71,3 +71,7 @@ links:
       url: https://bugzilla.mozilla.org/show_bug.cgi?id=1685174
       results:
         - test: out-of-flow-in-multicolumn-013.html
+    - product: chrome
+      url: https://crbug.com/1156312
+      results:
+        - test: widows-orphans-017.html

@@ -20,6 +20,7 @@ links:
       results:
         - test: webkit-line-clamp-008.html
         - test: webkit-line-clamp-029.html
+        - test: webkit-line-clamp-025.html
     - product: chrome
       url: https://crbug.com/305376
       results:
@@ -38,6 +39,7 @@ links:
       url: https://crbug.com/1067031
       results:
         - test: webkit-line-clamp-035.html
+        - test: text-overflow-ellipsis-002.html
     - product: firefox
       url: https://bugzilla.mozilla.org/show_bug.cgi?id=1672652
       results:
@@ -46,3 +48,16 @@ links:
       url: https://bugzilla.mozilla.org/show_bug.cgi?id=1685743
       results:
         - test: overflow-clip-margin-005.html
+    - product: chrome
+      url: https://crbug.com/1087667
+      results:
+        - test: clip-003.html
+        - test: overflow-clip-cant-scroll.html
+        - test: overflow-clip-content-visual-overflow.html
+        - test: overflow-clip-margin-001.html
+        - test: overflow-clip-margin-002.html
+        - test: overflow-clip-margin-invalidation.html
+    - product: chrome
+      url: https://crbug.com/1046544
+      results:
+        - test: incremental-scroll.html
